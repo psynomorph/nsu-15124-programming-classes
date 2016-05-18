@@ -39,7 +39,7 @@ void graph_add_link(GRAPH*, int, int);
 void graph_remove_link(GRAPH*, int, int);
 /* Возвращает вес связи между вершинами param2 и param3 */
 int graph_get_link(GRAPH*, int, int);
-/* Проверяет, есть ли связь между вершинами param2 и param3 
+/* Проверяет, есть ли связь между вершинами param2 и param3 */
 int graph_has_link(GRAPH*, int, int);
 
 # endif /* GRAPHS_H_INCLUDED */
