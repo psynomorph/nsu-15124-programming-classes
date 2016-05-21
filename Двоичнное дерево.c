@@ -37,7 +37,7 @@ void print_tree(Node* root) {
 	if (root == NULL) return;
 	print_tree(root->left);
 	printf("%i ", root->data);
-	print_tree(root->left);
+	print_tree(root->right);
 }
 /* Удаление дерева */
 void delete_tree(Node* root) {
