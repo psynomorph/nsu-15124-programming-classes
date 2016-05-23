@@ -61,7 +61,7 @@ void insert_node_after(List* l, Node* n, Node* new_node) {
 /* Вставить значение value после узла n */
 void insert_after(List* l, Node* n, int value) {
 	Node *node = create_node();
-	n->value = value;
+	node->value = value;
 	insert_node_after(l, n, node);
 }
 
