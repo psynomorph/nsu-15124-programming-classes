@@ -46,7 +46,7 @@ int next_perm(char* operators, int count) {
     if (i == -1) return 0;
     /* Если есть, то делаем его минусом */
     operators[i] = '-';
-    /* И зануляем всё после него */
+    /* И заплюсуем всё после него */
     reset(operators + i + 1, operators + count);
     return 1;
 }
