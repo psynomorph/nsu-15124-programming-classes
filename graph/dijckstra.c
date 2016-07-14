@@ -1,6 +1,8 @@
-# include <stdlib.h>
+﻿# include <stdlib.h>
 # include <stdio.h>
 # include "graphs.h"
+
+/* Считать граф из файла */
 
 GRAPH* read_graph(FILE* in) {
     GRAPH *g;
